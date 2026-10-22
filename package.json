@@ -13,15 +13,15 @@
     "agent"
   ],
   "license": "MIT",
-  "author": "",
+  "author": "Gallery99",
   "repository": {
     "type": "git",
-    "url": "https://github.com/OWNER/dsh-android-compact-ui.git"
+    "url": "https://github.com/Gallery99/dsh-android-compact-ui.git"
   },
   "bugs": {
-    "url": "https://github.com/OWNER/dsh-android-compact-ui/issues"
+    "url": "https://github.com/Gallery99/dsh-android-compact-ui/issues"
   },
-  "homepage": "https://github.com/OWNER/dsh-android-compact-ui#readme",
+  "homepage": "https://github.com/Gallery99/dsh-android-compact-ui#readme",
   "main": "src/compact-ui.js",
   "bin": {
     "dsh-android-compact-ui": "bin/cli.js"
