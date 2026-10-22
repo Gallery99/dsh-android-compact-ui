@@ -1,0 +1,42 @@
+{
+  "name": "dsh-android-compact-ui",
+  "version": "1.0.0",
+  "description": "Cut DeepSeek Harness phone-driving token costs ~98%: turn uiautomator XML dumps into a compact tap-ready element list.",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "android",
+    "uiautomator",
+    "accessibility",
+    "token-optimization",
+    "scrcpy",
+    "agent"
+  ],
+  "license": "MIT",
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OWNER/dsh-android-compact-ui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/OWNER/dsh-android-compact-ui/issues"
+  },
+  "homepage": "https://github.com/OWNER/dsh-android-compact-ui#readme",
+  "main": "src/compact-ui.js",
+  "bin": {
+    "dsh-android-compact-ui": "bin/cli.js"
+  },
+  "files": [
+    "src/",
+    "bin/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test/compact-ui.test.js",
+    "patch": "node bin/patch.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
